@@ -1,0 +1,59 @@
+.clock {
+  max-width: 700px;
+  margin: 200px auto;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+.setters {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5b0e2d;
+  color: white;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+span {
+  font-size: 24px;
+}
+
+.display {
+  text-align: center;
+  margin-top: 20px;
+}
+.break{
+  border: 5px solid white;
+  border-radius: 30px;
+  padding: 5px;
+}
+.session{
+  border: 5px solid white;
+  border-radius: 30px;
+  padding: 5px;
+}
+.final{
+  border: 5px solid white;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
