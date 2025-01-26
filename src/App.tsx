@@ -90,6 +90,17 @@ function App() {
   };
 
   return (
+    <>
+    <h1 
+    style={{
+      textAlign:'center',
+      position:'relative',
+      top:"50px",
+      fontSize:'50px',
+      fontWeight:'1000',
+    }}
+    >25 + 5 Clock
+    </h1>
     <div className="clock">
       <div className="setters">
         <div className="break">
@@ -124,6 +135,7 @@ function App() {
       <audio id="beep" src={Alarm} />
       </div>
     </div>
+    </>
   );
 }
 
